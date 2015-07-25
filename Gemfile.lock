@@ -1,0 +1,35 @@
+PATH
+  remote: .
+  specs:
+    scala2sysex (0.0.1)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    coderay (1.0.9)
+    diff-lcs (1.1.3)
+    method_source (0.8.1)
+    pry (0.9.12)
+      coderay (~> 1.0.5)
+      method_source (~> 0.8)
+      slop (~> 3.4)
+    rake (10.0.3)
+    rspec (2.11.0)
+      rspec-core (~> 2.11.0)
+      rspec-expectations (~> 2.11.0)
+      rspec-mocks (~> 2.11.0)
+    rspec-core (2.11.1)
+    rspec-expectations (2.11.3)
+      diff-lcs (~> 1.1.3)
+    rspec-mocks (2.11.3)
+    slop (3.4.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.3)
+  pry
+  rake
+  rspec
+  scala2sysex!
