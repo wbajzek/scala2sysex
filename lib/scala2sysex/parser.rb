@@ -26,7 +26,7 @@ module Scala2sysex
     end
 
     def offsets_1byte
-      rotate(offsets.collect { |offset| "%02x" % (64 + offset) })
+      rotate(offsets.collect { |offset| "%02x" % (64 + offset.round) })
     end
 
     def to_1byte_octave_sysex
