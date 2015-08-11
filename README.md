@@ -10,3 +10,5 @@ Ruby script to convert Scala tuning files to sysex
   module :thumbsup:
 * convert to sysex file for midi scale/octave tuning 2-byte form (non real-time),
   which is a more precise standard compatible with Yarns
+* calculate scales based on specified root notes and/or frequencies. E.g., a Just Major scale with D# 
+  as its root rather than C
