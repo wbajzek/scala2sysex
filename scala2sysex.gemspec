@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Scala2sysex::VERSION
   spec.authors       = ["William Bajzek"]
   spec.email         = ["williambajzek@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Converts a scala file to MTS sysex}
+  spec.summary       = %q{Converts a scala file to MTS sysex}
   spec.homepage      = ""
   spec.license       = "MIT"
 
