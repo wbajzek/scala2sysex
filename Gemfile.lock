@@ -28,8 +28,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 1.3)
+  bundler
   pry
   rake
   rspec
   scala2sysex!
+
+BUNDLED WITH
+   2.1.4
